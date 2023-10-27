@@ -1,0 +1,668 @@
+@media screen and (max-width: 1250px)
+{
+    .nav .nav1
+    {
+        height: inherit;
+        width: 60%;
+        /* background-color: blue; */
+        display: block;
+        overflow: hidden;
+    }
+
+
+    .bg1 .bg1-name
+    {
+        width: 80%;
+        /* border: 2px solid lightcoral; */
+       position: absolute;
+        top: 35%;
+        left: 20%;
+        
+    }
+    .type
+    {  
+        position: absolute;
+        top: 42%;
+        left: 20%;
+        font-size: 20px;   
+    }
+
+        /* section bg2 */
+
+        .bg2
+        {
+            height: 1350px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .bg2 .container
+        {
+            height: 1300px;
+            width: 90%;
+            /* background-color: bisque; */
+            /* margin: 0 auto; */
+        }
+    
+        .tittle-h::after
+        {
+            content: "";
+            height: 5px;
+            width: 10%;
+            background-color: rgb(92, 226, 208);
+           
+        }
+        .section-tittle .tittle-p
+        {
+            height: 50px;
+            /* background-color: lawngreen; */
+            font-size: 20px;
+            line-height: 20px;
+        }
+    
+    
+        .container .about
+        {
+            height: 1200px;
+            width: 100%;
+            /* border: 2px solid black; */
+        }
+    
+        .about .row
+        {
+            height: 650px;
+            width: 100%;
+            /* background-color: cadetblue; */
+            margin-top: 25px;
+            display: inline;
+        }
+    
+        .row .col1
+        {
+            height: 650px;
+            width: 70%;
+            /* border: 2px solid gold; */
+           
+        }
+    
+        .col1 .photo
+        {
+            height: 620px;
+            width: 70%;
+            box-shadow:0 0 0px black;
+            border-radius: 0px;
+            /* margin-top: 10px; */
+        }
+    
+        .row .col2
+        {
+            height: 550px;
+            width: 100%;
+            /* border: 2px solid gold; */
+            
+        }
+    
+        .col2 .profile
+        {
+            height: 500px;
+            width: 98%;
+            /* background-color: blue; */
+            box-shadow:0 0 0px black;
+            margin: 10px auto;
+        }
+    
+        .profile  .profile-p
+        {
+            height: 120px;
+            width: 100%;
+            /* border: 2px solid navajowhite; */
+        }
+    
+        .profile .profile-name
+        {
+            height: 290px;
+            width: 100%;
+            /* background-color: aqua; */
+            display: inline;
+        }
+    
+        .profile-name .name1
+        {
+            height: 130px;
+            width: 100%;
+            /* border: 2px solid black; */
+        }
+        .name2
+        {
+            height: inherit;
+            width: 95%;
+            /* background-color: aquamarine; */
+            margin: 0 auto;
+        }
+    
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1100px)
+{
+
+       /* section bg4 */
+
+       .bg4
+       {
+           height: 1400px;
+           /* background-color: lightcoral; */
+       }
+       .bg4 .contact
+       {
+           height: 1350px;
+           width: 90%;
+           /* background-color: gray; */
+         
+       }
+       .contact-h::after
+       {
+           content: "";
+           height: 5px;
+           width: 10%;
+           
+       }
+   
+       .contact  .contact-r2
+       {
+           height: 1200px;
+           /* border: 2px solid black; */
+           display: block;
+       }
+   
+       .contact-r2  .contact-c1
+       {
+           height: 530px;
+           width: 100%;
+           /* background-color: aqua; */
+           box-shadow: 0 0 5px black;
+           margin-right: 20px;
+       }
+   
+       .contact-r2  .contact-c2
+       {
+           height: 570px;
+           width: 100%;
+           /* background-color: navajowhite; */
+           margin: 0px;
+           box-shadow: 0 0 5px black;
+           margin-top: 70px;
+       }
+   
+          /* section bg3 */
+
+          .tittle::after
+          {
+              content: "";
+              height: 5px;
+              width: 10%;
+              
+          }
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    .nav .nav1
+    {
+        height: inherit;
+        width: 60%;
+        /* background-color: blue; */
+        display: block;
+        overflow: hidden;
+    }
+
+    .bg1 .bg1-name
+    {
+        width: 80%;
+        /* border: 2px solid lightcoral; */
+       position: absolute;
+        top: 35%;
+        left: 20%;
+        
+    }
+    .type
+    {  
+        position: absolute;
+        top: 42%;
+        left: 20%;
+        font-size: 20px;   
+    }
+
+    /* section bg2 */
+
+    .bg2
+    {
+        height: 1350px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg2 .container
+    {
+        height: 1300px;
+        width: 90%;
+        /* background-color: bisque; */
+        /* margin: 0 auto; */
+    }
+
+    .tittle-h::after
+    {
+        content: "";
+        height: 5px;
+        width: 10%;
+        background-color: rgb(92, 226, 208);
+       
+    }
+    .section-tittle .tittle-p
+    {
+        height: 50px;
+        /* background-color: lawngreen; */
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+
+    .container .about
+    {
+        height: 1200px;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+
+    .about .row
+    {
+        height: 650px;
+        width: 100%;
+        /* background-color: cadetblue; */
+        margin-top: 25px;
+        display: inline;
+    }
+
+    .row .col1
+    {
+        height: 650px;
+        width: 100%;
+        /* border: 2px solid gold; */
+    }
+
+    .col1 .photo
+    {
+        height: 620px;
+        width: 100%;
+        box-shadow:0 0 0px black;
+        border-radius: 0px;
+    }
+
+    .row .col2
+    {
+        height: 550px;
+        width: 100%;
+        /* border: 2px solid gold; */
+        
+    }
+
+    .col2 .profile
+    {
+        height: 500px;
+        width: 98%;
+        /* background-color: blue; */
+        box-shadow:0 0 0px black;
+        margin: 10px auto;
+    }
+
+    .profile  .profile-p
+    {
+        height: 120px;
+        width: 100%;
+        /* border: 2px solid navajowhite; */
+    }
+
+    .profile .profile-name
+    {
+        height: 290px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: inline;
+    }
+
+    .profile-name .name1
+    {
+        height: 130px;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .name2
+    {
+        height: inherit;
+        width: 95%;
+        /* background-color: aquamarine; */
+        margin: 0 auto;
+    }
+
+        /* section bg3 */
+
+        .tittle::after
+        {
+            content: "";
+            height: 5px;
+            width: 10%;
+            
+        }
+
+    /* section bg4 */
+
+    .bg4
+    {
+        height: 1400px;
+        /* background-color: lightcoral; */
+    }
+    .bg4 .contact
+    {
+        height: 1350px;
+        width: 90%;
+        /* background-color: gray; */
+      
+    }
+    .contact-h::after
+    {
+        content: "";
+        height: 5px;
+        width: 15%;
+        
+    }
+
+    .contact  .contact-r2
+    {
+        height: 1200px;
+        /* border: 2px solid black; */
+        display: block;
+    }
+
+    .contact-r2  .contact-c1
+    {
+        height: 530px;
+        width: 100%;
+        /* background-color: aqua; */
+        box-shadow: 0 0 5px black;
+        margin-right: 20px;
+    }
+
+    .contact-r2  .contact-c2
+    {
+        height: 570px;
+        width: 100%;
+        /* background-color: navajowhite; */
+        margin: 0px;
+        box-shadow: 0 0 5px black;
+        margin-top: 70px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px)
+{
+    .main
+    {
+        height: auto;
+        background-color: lightcoral;
+    }
+
+    header{
+        height: auto;
+        background-color: red;
+    }
+
+    .nav .nav1
+    {
+        height: inherit;
+        width: 40%;
+        background-color: black;
+        display: block;
+    }
+
+    .list
+    {
+        background-color: black;
+        display: inline;
+        margin-left: 20px;
+        
+    }
+
+    .nav .nav2
+    {
+       
+        width: 60%;
+        /* background-color: sandybrown; */
+    }
+
+
+    .bg1 .bg1-name
+    {
+        width: 80%;
+        /* border: 2px solid lightcoral; */
+       position: absolute;
+        top: 35%;
+        left: 20%;
+        
+    }
+    .type
+    {  
+        top: 50%;
+        left: 20%;
+        font-size: 20px;   
+    }
+
+    /* section bg2 */
+
+    .bg2
+    {
+        height: 1350px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg2 .container
+    {
+        height: 1300px;
+        width: 90%;
+        /* background-color: bisque; */
+        /* margin: 0 auto; */
+    }
+
+    .tittle-h::after
+    {
+        content: "";
+        height: 5px;
+        width: 20%;
+        background-color: rgb(92, 226, 208);
+       
+    }
+    .section-tittle .tittle-p
+    {
+        height: 50px;
+        /* background-color: lawngreen; */
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+
+    .container .about
+    {
+        height: 1200px;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+
+    .about .row
+    {
+        height: 650px;
+        width: 100%;
+        /* background-color: cadetblue; */
+        margin-top: 25px;
+        display: inline;
+    }
+
+    .row .col1
+    {
+        height: 650px;
+        width: 100%;
+        /* border: 2px solid gold; */
+    }
+
+    .col1 .photo
+    {
+        height: 620px;
+        width: 100%;
+        box-shadow:0 0 0px black;
+        border-radius: 0px;
+    }
+
+    .row .col2
+    {
+        height: 550px;
+        width: 100%;
+        /* border: 2px solid gold; */
+        
+    }
+
+    .col2 .profile
+    {
+        height: 500px;
+        width: 98%;
+        /* background-color: blue; */
+        box-shadow:0 0 0px black;
+        margin: 10px auto;
+    }
+
+    .profile  .profile-p
+    {
+        height: 120px;
+        width: 100%;
+        /* border: 2px solid navajowhite; */
+    }
+
+    .profile .profile-name
+    {
+        height: 290px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: inline;
+    }
+
+    .profile-name .name1
+    {
+        height: 130px;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .name2
+    {
+        height: inherit;
+        width: 95%;
+        /* background-color: aquamarine; */
+        margin: 0 auto;
+    }
+
+    /* section bg3 */
+
+    .tittle::after
+    {
+        content: "";
+        height: 5px;
+        width: 20%;
+        
+    }
+
+
+
+
+    /* section bg4 */
+
+    .bg4
+    {
+        height: 1400px;
+        /* background-color: lightcoral; */
+    }
+    .bg4 .contact
+    {
+        height: 1350px;
+        width: 90%;
+        /* background-color: gray; */
+      
+    }
+    .contact-h::after
+    {
+        content: "";
+        height: 5px;
+        width: 20%;
+        
+    }
+
+    .contact  .contact-r2
+    {
+        height: 1200px;
+        /* border: 2px solid black; */
+        display: block;
+    }
+
+    .contact-r2  .contact-c1
+    {
+        height: 530px;
+        width: 100%;
+        /* background-color: aqua; */
+        box-shadow: 0 0 5px black;
+        margin-right: 20px;
+    }
+
+    .contact-r2  .contact-c2
+    {
+        height: 570px;
+        width: 100%;
+        /* background-color: navajowhite; */
+        margin: 0px;
+        box-shadow: 0 0 5px black;
+        margin-top: 70px;
+    }
+
+}
+
+
+
+

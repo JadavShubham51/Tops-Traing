@@ -1,0 +1,15 @@
+.nav{
+    color: brown;
+}
+input::placeholder{
+    color: blue;
+}
+input[type="text"]{
+    color: aquamarine;
+    transition: .5s;
+}
+input:focus{
+   outline: none;
+   border: 2px solid gold;
+   border-radius: 10px;
+}

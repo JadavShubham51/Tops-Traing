@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p{
+            color: goldenrod;
+        }
+        .sh{
+            color: blue;
+        }
+        h1{
+            color: aqua;
+        } */
+
+        /* h2{
+            color: lightgreen;
+        }
+        #name{
+        color: brown;
+       }
+        .cl{
+            color: lightcoral;
+        }
+        */
+        p{
+            color: black;
+        }
+        
+        h4{
+            color: red !important;
+        }
+        h4{
+            color: blue ;
+        }
+        input::placeholder{
+            color: aqua;
+        }
+        input{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- This case is inline highest priority -->
+    <p style="color: lightcoral;font-size: 30px;">shubham</p>
+
+    <!-- this case is highest priority in class and tagname in rank class-->
+    <h1 class="sh">sdgfihdsufhn</h1>
+
+    <!-- this a case highest priority in class,tagname and id rank id -->
+    <h2 class="cl" id="name">asiudhuiash</h2>
+
+    <!-- this case is inline priority is highest in External,internal  -->
+    <p style="color: aqua;">shubham</p>
+
+    <h4>saifhiasuhfiusahfiuashfiu</h4>
+    <input type="text" placeholder="namsasdkjb">
+    <div class="nav">sifjiodshfnoisdjfj</div>
+</body>
+</html>
+<link rel="stylesheet" href="style.css">

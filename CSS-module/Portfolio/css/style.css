@@ -1,0 +1,836 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.main
+{
+    height: auto;
+    background-color: lightcoral;
+    position: relative;
+}
+/* header */
+
+header{
+    height: auto;
+    background-color: red;
+}
+
+.nav
+{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    
+}
+.nav .nav1
+{
+    height: inherit;
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+.list
+{
+    background-color: black;
+    text-decoration: none;
+    /* text-align: center; */
+    line-height: 50px;
+    display: none;
+}
+
+.list-a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(241, 236, 236,0.7);
+}
+
+.nav1 .navul
+{
+    text-align: right;
+    line-height: 50px;
+}
+.nav-a::after{
+    content: "";
+    background-color: lightskyblue;
+    height: 5px;
+    width: 0%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+.nav-a:hover::after{
+    width: 100%;
+}
+.navul .navli
+{
+    display: inline;
+}
+.navli .nav-a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 25px;
+    color: rgba(241, 236, 236,0.7);
+}
+.nav-a:hover{
+    color: white;
+}
+.x{
+    margin-right: 10px;
+}
+.nav-a:hover .x{
+    color: lightskyblue;
+}
+
+
+.nav .nav2
+{
+    height: inherit;
+    width: 40%;
+    /* background-color: sandybrown; */
+    display: flex;
+    justify-content: left;
+ 
+}
+.logo
+{
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid gray; */
+    background-color: rgba(70, 68, 68, 0.7);
+    border-radius: 50%;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 5px;
+}
+
+.logo:hover{
+    background-color: rgb(36, 170, 223);
+}
+.logo-a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* section bg1 */
+section
+{
+    height: auto;
+}
+.bg1
+{
+    height: 1000px;
+    /* background-color: red; */
+    position: relative;
+   
+}
+.bg1 .back-img
+{
+    height: 1000px;
+    background: url(/image/shubham2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.back-color
+{
+    height: 1000px;
+    background-color: rgba(24, 22, 22, 0.5);
+
+}
+
+.bg1 .bg1-name
+{
+    /* height: 70px; */
+    width: 30%;
+    /* border: 2px solid lightcoral; */
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    color: white;
+    font-size: 50px;
+    /* background-color: aquamarine; */
+}
+.type
+{
+    height: 50px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: white;
+    font-size: 22px;
+    /* background-color: aqua; */
+}
+.type h1{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-start infinite;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+/* section bg1 */
+.b
+{
+    height: auto;
+}
+
+.bg2
+{
+    height: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg2 .container
+{
+    height: 650px;
+    width: 90%;
+    /* background-color: bisque; */
+    /* margin: 0 auto; */
+}
+.container .section-tittle
+{
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.section-tittle .tittle-h
+{
+    height: 100px;
+    /* background-color: red; */
+    font-size: 40px;
+    text-align: left;
+    line-height: 100px;
+    color: rgb(66, 163, 238);
+    position: relative;
+}
+
+.tittle-h::after
+{
+    content: "";
+    height: 5px;
+    width: 5%;
+    background-color: rgb(92, 226, 208);
+    position: absolute;
+    top: 75%;
+    left: 2px;
+}
+
+
+.section-tittle .tittle-p
+{
+    height: 50px;
+    /* background-color: lawngreen; */
+    font-size: 20px;
+    text-align: left;
+    line-height: 50px;
+}
+.container .about
+{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.about .row
+{
+    height: 450px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    margin-top: 25px;
+    display: flex;
+}
+
+.row .col1
+{
+    height: inherit;
+    width: 30%;
+    /* border: 2px solid gold; */
+}
+.col1 .photo
+{
+    height: 420px;
+    width: 95%;
+    /* border: 2px solid black; */
+    background: url(/image/shubham.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: top;
+    margin: 10px auto;
+    box-shadow:0 0 10px black;
+    border-radius: 5px;
+}
+
+.row .col2
+{
+    height: inherit;
+    width: 70%;
+    /* border: 2px solid gold; */
+    
+}
+
+.col2 .profile
+{
+    height: 420px;
+    width: 98%;
+    /* background-color: blue; */
+    box-shadow:0 0 10px black;
+    margin: 10px auto;
+}
+.profile  .profile-h
+{
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid gray; */
+    font-size: 35px;
+    line-height: 50px;
+    padding: 0 10px;
+    color: rgb(66, 163, 238);
+}
+.profile  .profile-p
+{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid navajowhite; */
+    font-size: 20px;
+    padding: 0 20px;
+}
+.profile .profile-name
+{
+    height: 290px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.profile-name .name1
+{
+    height: inherit;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+.name2
+{
+    height: inherit;
+    width: 95%;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+
+.name2 .ul
+{
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.ul .nameli
+{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.nameli .right
+{
+    margin-right: 5px;
+    font-size: 25px;
+    color: rgb(66, 163, 238);
+}
+.nameli strong
+{
+    margin-right: 5px;
+    font-size: 25px;
+   
+}
+
+.nameli span
+{
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+
+/* section bg3 */
+.c
+{
+    height: auto;
+}
+
+.bg3
+{
+    height: 1200px;
+    background-color: white;
+    background-color: rgb(21, 20, 20,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg3 .bg3-contaner
+{
+    height: 1150px;
+    width: 95%;
+    /* background-color: aqua; */
+    /* margin: 0px auto; */
+    
+   
+}
+.bg3-contaner .protofolio-tittle
+{
+    height: 120px;  
+    /* border: 2px solid black; */
+    margin-left: 40px;
+}
+
+.protofolio-tittle .tittle
+{
+    height: 70px;
+    /* background-color: lawngreen; */
+    font-size: 40px;
+    color: rgb(66, 163, 238);
+    position: relative;
+}
+.tittle::after
+{
+    content: "";
+    height: 5px;
+    width: 5%;
+    background-color: rgb(92, 226, 208);
+    position: absolute;
+    top: 75%;
+    left: 2px;
+}
+
+.protofolio-tittle .tittle-n
+{
+    height: 50px;
+    /* background-color: bisque; */
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+
+.bg3-contaner .protofolio-project
+{
+    height: 1000px;
+    /* background: navajowhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.protofolio-project .project-d
+{
+    height: 950px;
+    /* width: 98%; */
+    /* border: 2px solid lightcoral; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    flex-basis: 90%;
+    gap: 10px;
+}
+.project-d .card
+{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+.card  .card-img
+{
+    height: 400px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* background: url(/image/shubham.jpg); */
+    /* background-position: center; */
+    /* background-size: 100% 100%; */
+    /* margin: 25px auto; */
+    
+    transform: scale(1);
+    
+}
+.card-img img
+{
+    object-fit: cover;
+    object-position: center;
+}
+.card-img:hover{
+    transform: scale(1.1);
+}
+
+.card .rgbacolor
+{
+    height: 400px;
+    width: 100%;
+    background-color:  rgb(9, 9, 9,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.rgbacolor:hover
+{
+    background-color:  rgb(9, 9, 9,0.5);
+}
+
+.card-name
+{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(44, 210, 225);
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    visibility: hidden;
+    transition: 0.7s;
+    display: flex;
+}
+.card:hover .card-name
+{
+    visibility: visible;
+    top: 330px;
+}
+.card-name .p-name
+{
+    height: inherit;
+    width: 70%;
+    /* border: 2px solid black; */
+    font-size: 25px;
+    margin-left: 10px;
+}
+.card-name .p-link
+{
+    height: inherit;
+    width: 30%;
+    /* border: 2px solid black; */
+   
+    text-align: center;
+    line-height: 70px;
+}
+
+.p-link .link-a
+{
+    color: white;
+    font-size: 40px;
+}
+.link-a:hover{
+    color: black;
+}
+
+
+
+/* section d */
+.d
+{
+    height: auto;
+}
+.bg4
+{
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg4 .contact
+{
+    height: 700px;
+    width: 90%;
+    /* background-color: gray; */
+  
+}
+.contact  .contact-r1
+{
+    height: 120px;
+    /* border: 2px solid black; */
+    
+}
+.contact-r1 .contact-h
+{
+    height: 70px;
+    /* background-color: aqua; */
+    font-size: 40px;
+    color: rgb(66, 163, 238);
+    position: relative;
+}
+.contact-h::after
+{
+    content: "";
+    height: 5px;
+    width: 5%;
+    background-color: rgb(92, 226, 208);
+    position: absolute;
+    top: 75%;
+    left: 2px;
+}
+
+.contact-r1 .contact-p
+{
+    height: 50px;
+    /* background-color: bisque; */
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+.contact  .contact-r2
+{
+    height: 530px;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 20px;
+}
+
+.contact-r2  .contact-c1
+{
+    height: inherit;
+    width: 30%;
+    /* background-color: aqua; */
+    box-shadow: 0 0 5px black;
+    margin-right: 20px;
+}
+.info
+{
+    height: 240px;
+    width: 95%;
+    /* border: 2px solid lightcoral; */
+    margin: 5px auto;
+}
+.info1
+{
+    height: 80px;
+    /* border: 2px solid navy; */
+    display: flex;
+}
+
+.info1 .info-logo
+{
+    height: inherit;
+    width: 20%;
+    /* background-color: royalblue; */
+}
+.info-logo  .info-logo1
+{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(43, 165, 226,0.3);
+    margin: 10px auto;
+    border-radius: 50%;
+}
+.info-logo1:hover{
+    background-color: rgb(21, 97, 221);
+}
+.y
+{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.info1 .info-name
+{
+    height: inherit;
+    width: 80%;
+    /* background-color: brown; */
+}
+.info-name  .info-h
+{
+    height: 40px;
+    /* border: 2px solid gray; */
+    font-size: 30px;
+}
+
+.info-name  .info-p
+{
+    height: 40px;
+    /* border: 2px solid gray; */
+    font-size: 20px;
+}
+
+
+
+.map
+{
+    height: 270px;
+    width: 95%;
+    /* border: 2px solid lightcoral; */
+    margin: 5px auto;
+}
+
+
+
+.contact-r2  .contact-c2
+{
+    height: inherit;
+    width: 50%;
+    /* background-color: navajowhite; */
+    margin-left: 20px;
+    box-shadow: 0 0 5px black;
+}
+.from
+{
+    height: 500px;
+    width: 95%;
+    /* background-color: gray; */
+    margin: 15px auto;
+}
+.from .row1
+{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid gold; */
+    display: flex;
+}
+.row1 .col1{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid green; */
+    padding-left: 10px;
+}
+.label
+{
+   font-size: 30px;
+}
+
+.col1 input[type=text]
+    {
+        /* background-color: black; */
+        border: none;
+        border-bottom: solid rgb(135, 134, 134);
+        width: 90%;
+        height: 50px;
+        color: black;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .col1 input[type=email]
+    {
+        /* background-color: black; */
+        border: none;
+        border-bottom: solid rgb(135, 134, 134);
+        width: 90%;
+        height: 50px;
+        color: black;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+
+
+.from .row2
+{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid gold; */
+    padding-left: 10px;
+}
+
+.label1
+{
+    font-size: 30px;
+}
+.row2 input[type=text]
+    {
+        /* background-color: black; */
+        border: none;
+        border-bottom: solid rgb(135, 134, 134);
+        width: 95%;
+        height: 50px;
+        color: black;
+        /* padding-left: 10px; */
+        font-size: 18px;
+    }
+
+
+
+.from .row3
+{
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid gold; */
+    padding-left: 10px;
+}
+
+.row3 input[type=Message]
+    {
+        /* background-color: black; */
+        border: none;
+        border-bottom: solid rgb(135, 134, 134);
+        width: 95%;
+        height: 50px;
+        color: black;
+        /* padding-left: 10px; */
+        /* font-size: 40px; */
+    }
+
+.from .row4
+{
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: center;
+}
+
+.row4 input[type=submit]
+        {
+            background-color: rgb(7, 186, 236);
+            width: 40%;
+            height: 50px;
+            border-radius: 5px;
+            padding: 5px;
+            color: white;
+            font-size: 20px;
+        }
+
+    .back 
+    {
+        height: 50px;
+        width: 50px;
+        background-color: greenyellow;
+        position: absolute;
+        right: 30px;
+        bottom: 10px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+    }
+    .back .back-top
+    {
+        color: black;
+        font-size: 30px;
+    
+    }
