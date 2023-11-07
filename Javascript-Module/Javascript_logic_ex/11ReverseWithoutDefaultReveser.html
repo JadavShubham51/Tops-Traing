@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    Write a function that reverses the order of words in a sentence without using the built-in reverse() method.
+    <script>
+        function reverseSentence(sentence) {
+            const words = sentence.split(' ');
+            const reversedWords = words.reverse();
+            return reversedWords.join(' ');
+
+        } 
+        console.log(reverseSentence("This is the example"));
+    </script>
+
+</body>
+
+</html>

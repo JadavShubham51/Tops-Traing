@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>First, we declare two constants: radius and pi. The radius constant is assigned the value 10, and pi is assigned the value of Math.PI which is a built-in constant in JavaScript that represents the value of pi (3.14159...).
+    </p>
+    <p>Next, we define a function named areaOfCircle that takes two parameters radius and pi.</p>
+    <p>Inside the function, we use the formula for the area of a circle, which is pi * radius * radius, and return the result.</p>
+    <p>Finally, we use console.log() to display the result of calling areaOfCircle with radius and pi as arguments. The result is a string that says "The area of the circle is: [area]".This program calculates the area of a circle with a radius of 10 and outputs the result to the console.</p>
+    <script>
+        const radius = 10;
+        const pi = Math.PI;
+        const areaOfCircle = (radius, pi) => {
+            return pi * radius * radius;
+        };
+        console.log("The area of the circle is: " + areaOfCircle(radius, pi));
+    </script>
+
+</body>
+
+</html>

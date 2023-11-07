@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // function getByteCount(s) {
+        //     var count = 0, stringLength = s.length, i;
+        //     s = String(s || "");
+        //     for (i = 0; i < stringLength; i++) {
+        //         var partCount = encodeURI(s[i]).split("%").length;
+        //         count += partCount == 1 ? 1 : partCount - 1;
+        //     }
+        //     return count;
+        // }
+        // console.log( getByteCount("i♥js")); // 6 bytes
+        // console.log( getByteCount("abcd")); // 4 bytes
+
+        let value = "data"
+        let bytes = 0
+        if (typeof value === 'boolean') {
+            bytes += 4;
+        }
+        else if (typeof value === 'string') {
+            bytes += value.length * 2;
+        }
+        else if (typeof value === 'number') {
+            bytes += 8;
+        }
+        console.log(bytes);
+    </script>
+
+</body>
+
+</html>

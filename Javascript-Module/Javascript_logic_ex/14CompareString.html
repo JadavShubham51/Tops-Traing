@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Write a function that checks if a given string is an anagram of another string (contains the same characters in a
+        different order)</p>
+    <script>
+        function isAnagram(str1, str2) {
+            const sortedStr1 = str1.split("").sort().join("");
+            const sortedStr2 = str2.split("").sort().join("");
+            return sortedStr1 === sortedStr2;
+        } 
+        console.log(isAnagram("This is the example","Other String is the"));
+        console.log(isAnagram("This is the example","This is the example"));
+    </script>
+
+</body>
+
+</html>

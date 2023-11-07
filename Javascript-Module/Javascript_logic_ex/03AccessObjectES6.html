@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<div class="disp" id="dispName"></div>
+<div class="disp" id="disp"></div>
+    <script>
+        var { products } =
+        {
+            "products": [
+                {
+                    "name": "prod 1",
+                    "versions": [
+                        "ver 1",
+                        "ver 2"
+                    ]
+                },
+                {
+                    "name": "prod 2",
+                    "versions": [
+                        "ver 1",
+                        "ver 2"
+                    ]
+                },
+                {
+                    "name": "prod 3",
+                    "versions": [
+                        "ver 1",
+                        "ver 2"
+                    ]
+                }
+            ]
+        };
+
+        let inventory = products.reduce((accumulator, currentValue) => {
+            let { name, versions } = currentValue;
+            accumulator[name] = versions
+            return accumulator
+        }, []);
+
+        Object.entries(inventory).forEach((prod) => {
+            let prodName = prod[0];
+            let prodVers = prod[1].join(", ");
+            document.getElementById("dispName").append(prodName)
+            document.getElementById("disp").append(prodVers)
+        });
+    </script>
+
+</body>
+
+</html>

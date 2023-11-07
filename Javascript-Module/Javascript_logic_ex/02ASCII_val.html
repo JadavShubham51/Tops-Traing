@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html">Reference</a>
+    <pre>
+
+        #include &lt;stdio.h&gt;
+
+            int main() {
+            char ch;
+    
+            // assigning a letter to ch
+            printf("Enter the Character: ");
+            scanf("%c", & ch);
+    
+            // displaying the ASCII value of the letter stored in ch
+            printf("\nThe ASCII Value of %c is %d", ch, ch);
+    
+            return 0;
+            }
+    </pre>
+        <script>
+            // program to find the ASCII value of a character
+
+            // take input from the user
+            const string = prompt('Enter a character: ');
+
+            // convert into ASCII value
+            const result = string.charCodeAt(0);
+
+            console.log(`The ASCII value is: ${result}`);
+        </script>
+
+</body>
+
+</html>

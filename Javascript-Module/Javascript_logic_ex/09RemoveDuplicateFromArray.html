@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Implement a function to remove duplicates from an array.</p>
+    <script>
+        function removeDuplicates(arr) {
+            return Array.from(new Set(arr));
+        } 
+        let Res = removeDuplicates(["Test","test","checking","check","data","Test"])
+        console.log(Res);
+    </script>
+</body>
+
+</html>
