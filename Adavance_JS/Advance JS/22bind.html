@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const Students = {
+
+            fname:"shubham",
+            lname:"jadav",
+            fullname: function(){
+                return this.fname + " " +this.lname;
+            }
+        }
+
+        // console.log(Students.fullname())
+
+        // const St1 = 
+        // {
+        //     fname:"Vidhi",
+        //     lname:"Patel"
+        // }
+
+        // console.log(Students.fullname.call(St1))
+        // console.log(Students.fullname.apply(St1))
+        // this is becues of values is function but class is not acces in method
+        // const name = Students.fullname  
+
+
+       const getName = Students.fullname.bind(Students);
+
+        // console.log(name());
+        console.log(getName())
+    </script>
+    
+</body>
+</html>

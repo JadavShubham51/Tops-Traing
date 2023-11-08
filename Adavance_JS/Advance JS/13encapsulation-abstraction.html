@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    Encapsulation: to hide details
+    Abstraction: allow to access only those info which are necessary and hide rest
+
+    class className
+    {
+    details...
+
+    atmpin
+    balace
+    bankName
+    address
+    }
+
+
+
+    <script>
+        // Create a function constructor to define an object
+        function Person(name, age) {
+            // Private variables
+            let _name = name;
+            let _age = age;
+
+            // Public methods to access and modify private variables
+            this.getName = function () {
+                return _name;
+            };
+
+            this.getAge = function () {
+                return _age;
+            };
+
+            this.setAge = function (newAge) {
+                if (newAge >= 0) {
+                    _age = newAge;
+                } else {
+                    console.log("Age cannot be negative.");
+                }
+            };
+        }
+
+        // Create an instance of the Person object
+        const person1 = new Person("John", 30);
+
+        // Access and modify the private variables through public methods
+        console.log(person1.getName()); // "John"
+        console.log(person1.getAge());  // 30
+
+        person1.setAge(35);
+        console.log(person1.getAge());  // 35
+
+        person1.setAge(-5); // Age cannot be negative.
+        console.log(person1.getAge());  // 35 (unchanged)
+
+        // Attempting to access private variables directly will result in an error
+        console.log(person1._name);  // undefined
+        console.log(person1._age);   // undefined
+
+    </script>
+
+</body>
+
+</html>
